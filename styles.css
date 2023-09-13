@@ -4,13 +4,11 @@ td,th{
 	border-radius:5px;
 	padding:0.5rem;
 }
-.heading{
-	background-color:white !important;
+
+.odd{
+	background-color:rgb(255,255,255);
 }
-tr:nth-child(odd) {
+.even{
 	background-color:rgb(242, 242, 242);
 }
 
-tr:nth-child(even) {
-	background-color:rgb(255,255,255);
-}
